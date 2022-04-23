@@ -43,7 +43,7 @@
 
     <profiles>
         <profile>
-            <id>sonar-server</id>
+            <id>sonar-server1</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
