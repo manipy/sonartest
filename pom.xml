@@ -10,6 +10,20 @@
 
     <name>Example of basic Maven project to integrate with SonarQube</name>
 
+  <distributionManagement>
+	<repository>
+		<id>nexus</id>
+		<name>Internal Releases</name>
+		<url>http://localhost:8081/repository/test-release/</url>
+	</repository>
+ 
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>Internal Releases</name>
+		<url>http://localhost:8081/repository/test-snapshot/</url>
+	</snapshotRepository>
+
+</distributionManagement>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
